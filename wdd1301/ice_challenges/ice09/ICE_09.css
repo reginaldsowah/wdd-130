@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Nuosu+SIL&family=Open+Sans:ital,wght@1,600&family=Oswald:wght@600&display=swap');
+
+
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bottom {
+    background-color: #7f7f80;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.time {
+    color: #3e5b8b;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.content {
+    color: #8c7f8b;
+    font-family: 'Roboto Slab', serif;
+    margin: 20px 35px;
+}
+.bottom p {
+    font-size: 0.7em;
+}
+.bottom h2 {
+    font-size: 1.3em;
+}
+
+div {
+    text-align: center;
+    color: white;
+    background-color: #3e5b8b;
+}
+
+.read p{
+    margin: 0;
+    margin-bottom: 22px;
+}
+.read h2 {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.comments h2{
+    margin: 0;
+    margin-top: 15px;
+}
+.comments p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.views h2{
+    margin: 0;
+    margin-top: 15px;
+}
+.views p {
+    margin: 0;
+    margin-bottom: 15px;
+}

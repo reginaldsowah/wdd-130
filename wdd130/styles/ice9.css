@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Roboto+Slab&display=swap');
+
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Roboto Slab', serif;
+    justify-items: center;
+}
+
+.box{
+    display: grid;
+    width: 300px;
+    background-color: white;
+    grid-column: 2/3;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    margin-top: -20px;
+}
+
+.time{
+    color: #3F5B8A;
+}
+
+.paragraph{
+    color:grey;
+    width: 250px;
+    margin-top: -2px;
+}
+
+footer{
+    background-color: #3F5B8A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Nuosu SIL', serif;
+    color: white;
+    /* padding-bottom: 15px; */
+}
+
+sup{
+    font-size: .6em;
+}
+
+#f1{
+    margin-top: -3px;
+}
+
+#f2{
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+    width:100%;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+h4{
+    margin-top: -20px;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+.read{
+    margin-top: -17px;
+}
