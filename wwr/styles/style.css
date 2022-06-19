@@ -75,7 +75,7 @@ h4{
 
 }
 
-main{
+.home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -217,6 +217,12 @@ main section{
     width: 100%;
 }
 
+/* FAQ page */
+.faqmain{
+    margin:0 auto;
+    max-width: 50%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -258,4 +264,4 @@ main section{
         margin-top: 25px;
     }
 }
-            
+
