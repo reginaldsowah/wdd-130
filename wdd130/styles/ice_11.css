@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Icons Outlined';
+    font-size: 1.2em;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    color: #bdbdbe;
+}
+
+.post-body {
+    width: 500px;
+    height: auto;
+    border: solid 1px #ede9eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer {
+    font-size: 0.8em;
+    color:lightgrey;
+}
+
+.user-name {
+    margin-right: auto;
+    margin-left: 5px;
+}
+/* .user {
+    justify-self: left;
+} */
+.user-icon {
+    width: 50px;
+    border-radius: 25px;
+    margin: 10px;
+}
+/* .timer {
+    text-align: right;
+} */
+.content-img {
+    width: 100%;
+}
+.like-count, .menu, .bookmark-icons, .like-icon {
+    margin: 0 10px;
+}
+.comment-count {
+    margin: 0;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+.like-icon {
+    padding-bottom: 5px;
+}
+.like-count {
+    padding-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+}
